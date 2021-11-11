@@ -656,6 +656,13 @@ ul.content-list li:last-child {
   font-family: Flaticon;
   font-size: 4.25rem;
   line-height: 1!important;
+  background-color: #292b69;
+  border-radius: 9rem;
+  padding: 1.5rem;
+}
+
+h5.h5-sm.steelblue-color.mt-dm {
+  margin-top: 2.5rem;
 }
 
 .icon-lg [class*="flaticon-"]:before,
@@ -837,7 +844,7 @@ span.id-color {
 .blue-color i, 
 .white-color .blue-color,
 .steelblue-color .blue-color,
-.blue-color span { color: #292b69; }
+.blue-color span { color: #fff; }
 
 .darkblue-color,
 .darkblue-color h2, 
