@@ -651,6 +651,7 @@ ul.content-list li:last-child {
   line-height: 1!important;
 }
 
+
 .icon-md [class*="flaticon-"]:before,
 .icon-md [class*="flaticon-"]:after {   
   font-family: Flaticon;
@@ -844,7 +845,7 @@ span.id-color {
 .blue-color i, 
 .white-color .blue-color,
 .steelblue-color .blue-color,
-.blue-color span { color: #fff; }
+.blue-color span { color: #000; }
 
 .darkblue-color,
 .darkblue-color h2, 
@@ -5757,5 +5758,178 @@ nav a#pull {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
+/*** 
+
+====================================================================
+	Service Section
+====================================================================
+
+***/
+
+.service-section {
+	position: relative;
+}
+
+.service-section .inner-container {
+	position: relative;
+	margin-top: -25px;
+	z-index: 10;
+}
+
+.service-block {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.service-block .inner-box {
+	position: relative;
+	padding: 50px 35px;
+	border-radius: 8px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.10);
+}
+
+.service-block .inner-box:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0;
+	border-radius: 8px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	background-color: #292b69;
+	transform: scale(0.2, 1);
+}
+
+.service-block .inner-box:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+
+.service-block .inner-box .icon-box {
+	position: relative;
+	color: #000000;
+	font-size: 60px;
+	line-height: 1em;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.service-block .inner-box .icon-box .icon svg {
+	width: 60px;
+	margin-right: auto;
+	margin-left: 0;
+}
+
+.service-block .inner-box .icon-box .icon svg path {
+	stroke: #000;
+	stroke-width: 2px;
+}
+
+.service-block .inner-box:hover .icon-box .icon svg path {
+	stroke: #ffffff;
+}
+
+.service-block .inner-box h3 {
+	position: relative;
+	line-height: 1.2em;
+	font-weight: 500;
+	color: #222222;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.service-block .inner-box h3 a {
+	position: relative;
+	color: #222222;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+a.fw-h {
+  font-size: 1.1875rem;
+}
+
+a.fw-p {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.service-block .inner-box h3 a.fw-h {
+  color: #b21a05;
+}
+.service-block .inner-box h3:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	bottom: 0px;
+	height: 3px;
+	width: 40px;
+	background-color: #292b69;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.service-block .inner-box:hover .blue-color {
+  color: #ffffff;
+}
+.service-block .inner-box:hover p {
+  color: #ffffff;
+}
+
+.service-block .inner-box .plus {
+	position: absolute;
+	right: 20px;
+	bottom: -22px;
+	width: 44px;
+	height: 44px;
+	color: #ffffff;
+	line-height: 44px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 50px;
+	display: inline-block;
+	background-color: #d81e27;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.service-block .inner-box:hover h3 a, .service-block .inner-box:hover .icon-box {
+	color: #ffffff;
+}
+
+.service-block .inner-box:hover h3:before {
+	background-color: #ffffff;
+}
+
+.service-block .inner-box:hover .plus {
+	background-color: #ffffff;
+	color: #222222;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+}
+
+.sbox-1.inner-box.card-box.wow.fadeInLeft.bx, .sbox-1.inner-box.card-box.wow.fadeInRight.bx {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 30%);}
+
+  .mt-8 {
+    margin-top: 8rem;
+  }
+/*** 
 
 
