@@ -5868,7 +5868,7 @@ a.fw-p {
 .service-block .inner-box h3 a.fw-h {
   color: #b21a05;
 }
-.service-block .inner-box h3:before {
+.service-block .inner-box h3:before, .service-block .inner-box p:before {
 	position: absolute;
 	content: '';
 	left: 0px;
@@ -5914,7 +5914,7 @@ a.fw-p {
 	color: #ffffff;
 }
 
-.service-block .inner-box:hover h3:before {
+.service-block .inner-box:hover h3:before, .service-block .inner-box:hover p:before {
 	background-color: #ffffff;
 }
 
